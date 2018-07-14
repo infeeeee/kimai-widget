@@ -20,18 +20,20 @@ More info on Kimai:
 
 ## Installing
 
-* Download rmskin package from releases
+* Download rmskin package from [releases](https://github.com/infeeeee/kimai-widget/releases/latest)
 * You have to edit settings.ini to connect to your kimai server! If you use the default install paths of rainmeter it should be here: `Documents\Rainmeter\Skins\kimai-widget\kimai\kimai-cmd\settings.ini`
-* [Optional] Automatic stop of the current timer when the PC is idle, via task scheduler: edit kimaiStop.xml in \bat. In the <exec> section change the path to your kimai-cmd.exe. Run installTask.bat to install the scheduled task for stop when idle or logoff. to remove the task, run removeTask.bat
+* [Optional] Automatic stop of the current timer when the PC is idle, via task scheduler: edit kimaiStop.xml in \bat. In the `<exec>` section change the path to your kimai-cmd.exe. Run installTask.bat to install the scheduled task for stop when idle or logoff. to remove the task, run removeTask.bat
 
 
 ## Variants
 
 There are two variants in the skin: 
 * kimai-default, looks like the default kimai webui.
+
 ![kimai-default](@Resources/Screenshots/kimai-default.png?raw=true "kimai-default")
 
 * infinimal, looks like my hardware monitor skin [infinimal](https://github.com/infeeeee/infinimal)
+
 ![infinimal](@Resources/Screenshots/infinimal.png?raw=true "infinimal")
 
 ## Usage
