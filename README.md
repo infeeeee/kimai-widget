@@ -43,6 +43,7 @@ There are two variants in the skin:
 * After you selected the project and the task, click on the play ▶️ button.
 * To stop the current timer, click on the stop ⏹️ button. 
 * Any time the skin shows wrong data, just click on the reload 🔄 button. It happens when rainmeter loads.
+* If you click on the Kimai logo, it opens your kimai homepage in your default browser
 
 ## Authors
 
