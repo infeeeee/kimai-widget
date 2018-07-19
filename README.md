@@ -1,6 +1,7 @@
 # kimai-widget
 
 Rainmeter skin for [Kimai](http://www.kimai.org/), the open source self hosted timetracker.
+Rainmeter is a desktop customization tool for Windows. More info and download: [rainmeter.net](https://www.rainmeter.net/)
 This skin uses my kimai-cmd program. The executable included in the .rmskin package, but the source code of that project is here: [kimai-cmd](https://github.com/infeeeee/kimai-cmd).
 To use this widget you have to install Kimai first on a server!
 More info on Kimai:
@@ -16,13 +17,15 @@ More info on Kimai:
 
 ### Not working features
 
-* SSL is not supported yet, if you need it create an issue, I would like to test it on your server, mine is not with ssl
+* SSL is not supported yet, I'm working on it
 
 ## Installing
 
+* Prerequisites: [Kimai](http://www.kimai.org/), [Rainmeter](https://www.rainmeter.net/)
 * Download rmskin package from [releases](https://github.com/infeeeee/kimai-widget/releases/latest)
+* Just doubleclick to install it
 * You have to edit settings.ini to connect to your kimai server! If you use the default install paths of rainmeter it should be here: `Documents\Rainmeter\Skins\kimai-widget\kimai\kimai-cmd\settings.ini`
-* [Optional] Automatic stop of the current timer when the PC is idle, via task scheduler: edit kimaiStop.xml in \bat. In the `<exec>` section change the path to your kimai-cmd.exe. Run installTask.bat to install the scheduled task for stop when idle or logoff. to remove the task, run removeTask.bat
+* [Optional] Automatic stop of the current timer when the PC is idle, via task scheduler: edit kimaiStop.xml in \bat. In the `<exec>` section change the path to your kimai-cmd.exe. Run installTask.bat to install the scheduled task for stop when idle or logoff. To remove the task, run removeTask.bat
 
 
 ## Variants
