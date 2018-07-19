@@ -1,9 +1,13 @@
 # kimai-widget
 
 Rainmeter skin for [Kimai](http://www.kimai.org/), the open source self hosted timetracker.
+
 Rainmeter is a desktop customization tool for Windows. More info and download: [rainmeter.net](https://www.rainmeter.net/)
+
 This skin uses my kimai-cmd program. The executable included in the .rmskin package, but the source code of that project is here: [kimai-cmd](https://github.com/infeeeee/kimai-cmd).
+
 To use this widget you have to install Kimai first on a server!
+
 More info on Kimai:
 * [kimai.org](http://www.kimai.org/)
 * [github](https://github.com/kimai/kimai)
