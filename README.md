@@ -14,14 +14,11 @@ More info on Kimai:
 
 ## Features
 
+* SSL support
 * List all projects, activities
 * Show currently active project and activity
 * Start/stop a project and activity
 * Automatically stop timer when nobody uses the computer or when user logs off
-
-### Not working features
-
-* SSL is not supported yet, I'm working on it
 
 ## Installing
 
