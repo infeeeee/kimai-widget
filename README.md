@@ -25,7 +25,8 @@ More info on Kimai:
 * Prerequisites: [Kimai](http://www.kimai.org/), [Rainmeter](https://www.rainmeter.net/)
 * Download rmskin package from [releases](https://github.com/infeeeee/kimai-widget/releases/latest)
 * Just doubleclick to install it
-* You have to edit settings.ini to connect to your kimai server! If you use the default install paths of rainmeter it should be here: `Documents\Rainmeter\Skins\kimai-widget\kimai\kimai-cmd\settings.ini`
+* You have to rename and edit settings.ini to connect to your kimai server! If you use the default install paths of rainmeter it should be here: `Documents\Rainmeter\Skins\kimai-widget\kimai\kimai-cmd\settings.ini.example`
+Just rename it to `settings.ini`, than edit with notepad or with your favourite text editor.
 * [Optional] Automatic stop of the current timer when the PC is idle, via task scheduler: edit kimaiStop.xml in \bat. In the `<exec>` section change the path to your kimai-cmd.exe. Run installTask.bat to install the scheduled task for stop when idle or logoff. To remove the task, run removeTask.bat
 
 
