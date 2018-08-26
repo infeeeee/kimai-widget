@@ -50,6 +50,12 @@ There are two variants in the skin:
 * Any time the skin shows wrong data, just click on the reload 🔄 button. It happens when rainmeter loads.
 * If you click on the Kimai logo, it opens your kimai homepage in your default browser
 
+### Logging
+
+If something goes wrong, you can enable logging. Rightclick on the skin, edit skin, search for the word LOGGING. 
+Uncomment the following lines to enable verbose logging, and comment out the parameter value above
+ 
+
 ## Authors
 
 infeeeee - gyetpet@gmail.com
