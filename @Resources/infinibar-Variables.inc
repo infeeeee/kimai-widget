@@ -16,6 +16,7 @@ TaskbarH=1440
 colorText=255,255,255,255
 ;colorBackground=16,16,16,255
 colorBackground=0,0,0,1
+colorHoverBackground=255,255,255,25
 
 colorBar=255,255,255,255
 colorBarBackground=51,51,51,255

@@ -1,5 +1,5 @@
 [Rainmeter]
-Update=1000
+Update=100
 BackgroundMode=2
 
 ;@include1=#@#Variables.inc
@@ -146,7 +146,9 @@ Y=7
 W=#fullWidth#
 H=(#fullHeightGeneric#-7)
 SolidColor=#colorBackground#
-;SolidColor=255,0,0,255
+;SolidColor=#colorHoverBackground#
+MouseOverAction=[!SetOption meterBg Solidcolor #colorHoverBackground#]
+MouseLeaveAction=[!SetOption meterBg Solidcolor #colorBackground#]
 
 [styleButton]
 StringAlign=Center
